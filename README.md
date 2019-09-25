@@ -5,7 +5,13 @@ It's for research purpose only, we won't be responsible for any misuses.
 
 ## Setup
 
-Start the server
+Start the dev server
+
+```sh
+npm dev
+```
+
+Start the production server
 
 ```sh
 npm start

