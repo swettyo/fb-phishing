@@ -123,5 +123,7 @@ public/
 .dynamodb/
 
 package-lock.json
+yarn.lock
+passwords.json
 
 # End of https://www.gitignore.io/api/node,macos

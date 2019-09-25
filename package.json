@@ -1,17 +1,24 @@
 {
-  "name": "fb-phising",
+  "name": "fb-phishing",
+  "private": true,
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "FB Phishing",
+  "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "phishing",
+    "facebook",
+    "hack"
+  ],
+  "author": "Whitify",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "log4js": "^5.1.0"
   },
   "devDependencies": {
     "nodemon": "^1.19.2"
